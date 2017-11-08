@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../App.css';
+import '../App_paralax.css';
 
 
 
@@ -9,96 +9,66 @@ export default class Timeline extends Component{
     return(
       <div className="Timeline">
         <div className="container ">
-          <h1 className="header">My Journey</h1>
-        <p className="header">Since Graduating UNC</p>
+          <h1 className="ui centered header">What We Look For In our Developers...</h1>
         </div>
-          <section id="cd-timeline" class="cd-container">
+          <div id="cd-timeline" className="cd-container">
             <div className="cd-timeline-block">
-              <div className="cd-timeline-img cd-picture">
-              </div>
-
               <div className="cd-timeline-content">
-                <h2>Dev Consulting</h2>
+                <h2>You’re an Inspired Developer </h2>
               <div className="timeline-content-info">
-                  <span className="timeline-content-info-title">
-                    <i className="fa fa-certificate" aria-hidden="true"></i>
-                  Product Manager | Software Developer | Entrepreneurial Consulting
-                  </span>
-                  <span className="timeline-content-info-date">
-                    <i className="fa fa-calendar-o" aria-hidden="true"></i>
-                  </span>
+
                 </div>
-                <p>Working as an entrepreneurial consultant, and software developer, as I finish up a 6 month Full Stack Software Development Immersive. I am looking to transition into a product management role within a startup that values agile and user driven software development.</p>
-              <ul className="content-skills">
-                <li>HTML5 | CSS3 | JavaScript | Python </li>
-                <li>REACT.JS | Angular.JS | Node.JS </li>
-              <li>Heroku | Firebasee | Git | Github </li>
-                <li>Agile | SCRUM | Pivatol Tracker | Asana  </li>
-              <li>Adobe Creative Cloud | ERD's | </li>
-                </ul>
-                      <span className="cd-date">TODAY</span>
+                <p>Give you a set of specs and user stories and you will build an interface that not only meets the requirements, but anticipates user experience features that were missed. You have a deep appreciation for and understanding of the people and platforms you’re developing for.</p>
+
               </div>
             </div>
 
             <div className="cd-timeline-block">
-              <div className="cd-timeline-img cd-movie">
-              </div>
+
 
               <div className="cd-timeline-content">
-                <h2>Galvanize | Denver | Web Development Immersive |  2017</h2>
-                <p>
-          Intensive web development program with a focus on JavaScript.Trained on front end & back end technologies to build applications individually & in group formats, with an emphasi on Agile workflow, & pair programming</p>
-              <span className="cd-date">Feb 14th, 2017</span>
+                <h2>You aspire to more than just "build" </h2>
+                <p> You don’t just want to build product 9-5 for a paycheck. You want to continue to develop as a technologist. Learning new languages and adapting to different projects.</p>
               </div>
             </div>
 
             <div className="cd-timeline-block">
-              <div className="cd-timeline-img cd-picture">
-              </div>
+
 
               <div className="cd-timeline-content">
-                <h2>Costner Lake (Jooster) | Remote | Entrepreneurial/Research Consultant </h2>
-                <p>
-          Jan 2017- Present
-          •	Worked with President to identify key tech & projects to pursue
-          •	Implemented projects including detailed medical journal reports </p>
-              <span className="cd-date">Jan 20, 2017</span>
+                <h2>You value quality over quantity</h2>
+                <p>You don’t spend four rounds on something that should only take two, and you have a proven record of avoiding late nights by being extremely efficient during the day.</p>
               </div>
             </div>
 
             <div className="cd-timeline-block">
-              <div className="cd-timeline-img cd-location">
-              </div>
+
 
               <div className="cd-timeline-content">
-                <h2>Work-Trade Sailing through the mediterranean</h2>
-              <p>Took online classes to finished up college, while doing my best vagabond impersonation. Staying with friends, and kind family's throughout Eastern Europe, Scandanavia, Spain and Morrocco. Ultimatley culminating the trip in a work trade on a sail boat, learning to sail, as we traveled from Nice to Rome for a month</p>
-              <span className="cd-date">May - Sept, 2016</span>
+                <h2>Process matter to you</h2>
+              <p>Commented git commits, testing, and remote workflow are second nature to you.  We love being small and scrappy and making it up as we go. You do too.</p>
               </div>
             </div>
 
             <div className="cd-timeline-block">
-              <div className="cd-timeline-img cd-location">
-              </div>
+
 
               <div className="cd-timeline-content">
-                <h2>Graduated from UNC Chapel Hill</h2>
-                {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p> */}
-              <span className="cd-date">Aug, 2013 - Aug, 2016</span>
+                <h2>Technology Expert and Sponge</h2>
+                <p>You have a core set of technology that you have mastered, but you are also get excited for the opportunity to work on, and learn, new technologies. In application please specify your skill sets and preferred technologies and stack.</p>
               </div>
             </div>
 
             <div className="cd-timeline-block">
-              <div className="cd-timeline-img cd-movie">
-              </div>
+
 
               {/* <div className="cd-timeline-content">
                 <h2>Final Section</h2>
-                <p>This is the content of the last section</p>
+                <p>This is the content of the last div</p>
               <span className="cd-date">Feb 26</span>
               </div> */}
             </div>
-          </section>
+          </div>
 
       </div>
     )

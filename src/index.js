@@ -1,11 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import Projects from './components/Projects'
-import About from './components/About'
-import Landing from './components/Landing'
-import Timeline from './components/Timeline'
-import Inverge from './components/Inverge'
+import thunk from 'redux-thunk'
 
 
 import {
@@ -15,10 +10,26 @@ import {
 
 
 
+
+import App from './App';
+import Projects from './components/Projects'
+import About from './components/About'
+import Landing from './components/Landing'
+import Timeline from './components/Timeline'
+import Inverge from './components/Inverge'
+import Hero from './components/LandingComponents/Hero'
+import Home from './components/Home'
+
+const middleware = [thunk]
+const render = () => {
+
+
+
+
 ReactDOM.render(
   <Router>
     <div>
-    <Route exact path='/' component={App}/>
+    <Route exact path='/' component={Home}/>
     <Route path='/inverge' component={Inverge}/>
 
 
@@ -26,3 +37,5 @@ ReactDOM.render(
     </div>
   </Router>,
   document.getElementById('root'));
+}
+render();
