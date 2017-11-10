@@ -11,7 +11,7 @@ export default class LandingComponentThree extends Component{
     return(
       <div className="padding ui">
         <h1 id="pad_bottom"className="ui centered header">What We Look For In our Developers...</h1>
-      <div className="padding ui" id="idea_candidate">
+      <div className="ui" id="idea_candidate">
           <article id="ideal_candidate_image">
 
             <div id="pad10"  className="ui two column grid stackable tint">

@@ -187,6 +187,87 @@ h3{
 #idea_candidate .ui.two.column.grid.stackable {
     background-color: rgba(0,0,0,.7);
 }
+.ui.three.column.grid.stackable {
+    background-color: rgba(0,0,0,0);
+}
+/*#perks {
+  background:
+  url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb6eRGBSVyQue1gUKrbX83TL9t_mOmS9Ax7jr6o6KCOFk1bn0M) center center / no-repeat;
+
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+#perks {
+  background: url(https://cdn.stocksnap.io/img-thumbs/960w/55A6840521.jpg) center center / cover no-repeat;
+
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}*/
+#perks {
+  background:
+   url(https://s.dou.ua/img/static/companies/midealab_logo_1.png) center center / cover no-repeat,  url(https://cdn.stocksnap.io/img-thumbs/960w/55A6840521.jpg) center center / cover no-repeat;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+/*#section03 {
+  background:
+   url(https://cdn.stocksnap.io/img-thumbs/960w/55A6840521.jpg) center center / cover no-repeat,url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb6eRGBSVyQue1gUKrbX83TL9t_mOmS9Ax7jr6o6KCOFk1bn0M) center center / no-repeat;
+  position: inherit;
+  width: 100vw;
+  height: 100vh;
+}*/
+
+
+
+/*#tint article{
+  background-color: rgba(0,0,0,.5);
+  color: white
+}*/
+/*#tint div{
+  background-color: rgba(0,0,0,.5);
+  color: white
+}*/
+
+#perks h1{
+  padding-bottom: 1.5em;
+  right:10px;
+}
+#perks article {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  padding-left: 7vw
+  /*padding-bottom: 15vh*/
+}
+#perks article::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 100vw;
+  height: 60vh;
+  background: -webkit-linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+  z-index: 10
+}
+#perks article h1 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  z-index: 9;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: black;
+  font : normal 300 34px/1 'Josefin Sans', sans-serif;
+  text-align: center;
+  white-space: wrap;
+}
+
 
 #idea_candidate h1{
   padding-bottom: 1.5em;
@@ -204,7 +285,7 @@ h3{
   left: 0;
   content: '';
   width: 100vw;
-  height: 100vh;
+  height: 60vh;
   background: -webkit-linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
   background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
   z-index: 3
@@ -225,13 +306,49 @@ h3{
   background: url(https://media.licdn.com/media/AAEAAQAAAAAAAAlTAAAAJDM4ZmQ0OWU5LWFiZTgtNDgxZi1iMDFhLWNjZWFhZTM4OGZhNQ.png) center center / cover no-repeat;
 
 }
+
 #absolute{
   position: absolute;
   z-index: 10;
   padding-left: 10%;
   padding-right: 10%;
 }
+#absolute_nopadding.ui.segment.container{
+  position: absolute;
+  z-index: 15;
+  min-height: 150px;
 
+}
+#absolute_nopadding.ui.three.column.grid{
+  padding-bottom: 5vh;
+  padding-left: 2em;
+  padding-right: 4em;
+}
+div#padding-left{
+  padding-left: 8vw !important;
+}
+div#padding-right.column{
+  padding-right: 20vw !important;
+  /*padding-top: 10vh*/
+}
+.ui.three.column.grid.stackable {
+    padding-bottom: 20vh;
+    padding-right: 10vw
+}
+#section02{
+  padding-top: 5vh
+}
+#section2{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+/*#idea_candidate .ui.two.column.grid.stackable div {
+    background-color: rgba(0,0,0,.7);
+    border-style: solid;
+    border-width: 5px;
+
+}*/
 
 
 /*.ui.two.column.grid.stackable {
@@ -279,6 +396,8 @@ h3{
         background-color: rgba(0,0,0,.7) !important;
 
     }
+
+
 
 
     #pad10 i{
@@ -340,6 +459,70 @@ h3{
     img.ui.centered.large.image {
     padding-right: 5em;
     display: none;
-}
+    }
+
+
+
+
+
+    div#padding-right {
+      padding-bottom: 16vh !important;
+      padding-right: 0vw;
+      padding-left: 0vw;
+      max-width: 400px;
+      margin-top: 100px
+    }
+
+    div#bottom {
+
+      padding-bottom: 20vh !important;
+      padding-right: 0vw;
+      padding-left: 0vw;
+      max-width: 400px;
+      margin-top: -200px
+    }
+
+    #grid_bottom{
+      margin-top: -200px;
+    }
+
+    #perks {
+      background:
+       url(https://s.dou.ua/img/static/companies/midealab_logo_1.png) center center / cover no-repeat,  url(https://cdn.stocksnap.io/img-thumbs/960w/55A6840521.jpg) center center / cover no-repeat;
+      position: relative;
+      width: 100vw;
+      height: 150vh;
+    }
+    #perks h1{
+      padding-bottom: 1.5em;
+      right:10px;
+    }
+    #perks article {
+      position: relative;
+      width: 100vw;
+      height: 150vh;
+      /*padding-bottom: 15vh*/
+    }
+
+    /*#absolute{
+      position: absolute;
+      z-index: 10;
+      padding-left: 10%;
+      padding-right: 10%;
+    }*/
+    #absolute_nopadding.ui.segment.container{
+      position: absolute;
+      z-index: 15;
+      min-height: 150px;
+      width: 400px
+
+    }
+    #absolute_nopadding.ui.three.column.grid{
+      padding-bottom: 5vh;
+      padding-left: 2em;
+      padding-right: 2em;
+      width: 300px;
+    }
+
 
 }

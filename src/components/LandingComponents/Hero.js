@@ -34,11 +34,11 @@ export default class HeroImage extends Component{
           <a  href="#section01"><span></span></a>
         </div>
         <section id="section01" class="demo">
-          <h1>Join Midealab</h1>
-          <h2>Midealab is looking to extend our network of Developers</h2>
-          <a href="#section03"><span></span>Scroll</a>
+          <h1>Join MideaLab</h1><h2>"my-idea-lab"</h2>
+          {/* <h2>Midealab is looking to extend our network of Developers</h2> */}
+          <a href="#section2"><span></span>Scroll</a>
         </section>
-      
+
       </div>
 
 

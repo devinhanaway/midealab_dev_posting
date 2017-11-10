@@ -13,10 +13,13 @@ export default class LandingComponentFour extends Component{
 
       <div classNameName="padding ui">
 
-        <div id="section03_content" class="ui">
+      <div className="ui" id="network">
+
+        <article id="section03_content" class="ui">
+          <h1 id="pad_bottom"className="ui centered header">Midealab Developer Network</h1>
 
           <div id="black">
-            <h1 >Midealab Developer Network</h1>
+
 
           <h2>Midealab is seeking to extend our community of highly talented and motivated developers to join our ever-expanding team. Remote and dispersed teams are at the foundation of Midealab, with projects ranging from 3 month projects for US clients, to developing one of the startups launched by Midealab’s founders.</h2>
             {/* <p>
@@ -39,8 +42,8 @@ export default class LandingComponentFour extends Component{
         </div>
 
           </div>
-      </div>
-
+      </article>
+    </div>
       </div>
     )
   }
