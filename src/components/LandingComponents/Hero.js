@@ -8,11 +8,10 @@ import {
 } from 'react-router-dom'
 
 import {Redirect} from 'react-router-dom'
+import $ from "jquery";
+import Scrollchor from 'react-scrollchor';
 
 
-
-
-const myTitle =['Stay in touch with the people you actually care about','Explore, Travel, Connect','Share and expand your network with your closest friends', 'Become a Nomad']
 
 
 
@@ -20,7 +19,6 @@ export default class HeroImage extends Component{
   constructor(){
     super()
     this.state = {
-      title: "Explore, Travel, Connect",
     }
 
   }
@@ -28,15 +26,21 @@ export default class HeroImage extends Component{
 
   render(){
 
+
     return(
       <div>
         <div id="top">
-          <a  href="#section01"><span></span></a>
+          {/* <a  href="#section01"><img src="https://daks2k3a4ib2z.cloudfront.net/5720705935a3eec8453146fd/5720705935a3eec84531474d_logo.png"></img></a> */}
         </div>
         <section id="section01" class="demo">
           <h1>Join MideaLab</h1><h2>"my-idea-lab"</h2>
           {/* <h2>Midealab is looking to extend our network of Developers</h2> */}
-          <a href="#section2"><span></span>Scroll</a>
+
+            <Scrollchor id="scroll" animate={{offset: 0, duration: 1000}} to="#section2" className="item">
+              <i className=" material-icons arrow ">arrow_drop_down_circle</i>
+
+            </Scrollchor>
+
         </section>
 
       </div>

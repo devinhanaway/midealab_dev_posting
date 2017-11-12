@@ -19,6 +19,7 @@ import Timeline from './components/Timeline'
 import Inverge from './components/Inverge'
 import Hero from './components/LandingComponents/Hero'
 import Home from './components/Home'
+import Navbar from './components/Navbar'
 
 const middleware = [thunk]
 const render = () => {

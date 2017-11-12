@@ -1,44 +1,78 @@
 import React, { Component } from 'react';
-import '../../App_Hero.css';
-
-import {
-  BrowserRouter as Router,
-  Route,
-  Link
-} from 'react-router-dom'
-
-import {Redirect} from 'react-router-dom'
+import '../../App_paralax.css';
 
 
 
 
-const myTitle =['Stay in touch with the people you actually care about','Explore, Travel, Connect','Share and expand your network with your closest friends', 'Become a Nomad']
-
-
-
-export default class HeroImage extends Component{
-  constructor(){
-    super()
-    this.state = {
-      title: "Explore, Travel, Connect",
-    }
-
-  }
-
-
+export default class LandingComponentTwo extends Component{
 
   render(){
+
     return(
-      <div>
+      <div >
+          <h1 id="section2" className=" ui center aligned icon header">Why Join midealab?</h1>
 
-        <section id="section02" class="demo">
-          <h1>Midealab Developer Network</h1>
-        <a href="#section03"><span></span>Scroll</a>
-        <h2>Midealab is looking to extend our network of Developers</h2>
 
-        </section>
+        <div id="perks">
+          <article className="landing2" id="section03">
+
+
+          <div className="ui grid stackable">
+              <div id="perk1" className="column">
+                <div className="ui segment container" id="absolute_nopadding">
+                  {/* <img className="ui medium centered image" src="../../../images/peopleMap.jpg"/> */}
+                    <h2>Startup + Development Studio</h2>
+                  <h3>Work on a client products and startups launched by Midealab's experienced founders.</h3>
+
+
+                 </div>
+              </div>
+
+
+              <div id="perk2" className="column">
+                <div className="ui segment container" id="absolute_nopadding">
+
+                  {/* <img className="ui medium centered image" src="../../../images/globalCitizen.jpg"/> */}
+                <h2>Flexibility & Community</h2>
+              <h3>You will have the freedom to work from anywhere, but also have an office and startup culture to </h3>
+              </div>
+            </div>
+
+            </div>
+
+
+            <div className="ui three column grid stackable" id="grid_bottom">
+
+
+              <div id="perk3" className="column">
+                <div className="ui segment container" id="absolute_nopadding">
+                  {/* <img className="ui medium centered image" src="../../../images/connection.jpg"/> */}
+                <h2>Competative Compensation + Freedom</h2>
+              <h3>Being a part of Midealab's Dev Network doesn't mean you can't work other jobs. It just gaurentees competative pay and consistent work opportunities</h3>
+                 </div>
+              </div>
+
+
+              {/* <div className="column">
+
+              </div> */}
+
+              <div id="perk4" className="column">
+                <div className="ui segment container" id="absolute_nopadding">
+                  {/* <img className="ui medium centered image" src="../../../images/connection.jpg"/> */}
+                <h2>Competative Compensation + Freedom</h2>
+              <h3>Being a part of Midealab's Dev Network doesn't mean you can't work other jobs. It just gaurentees competative pay and consistent work opportunities</h3>
+                 </div>
+              </div>
+
+            </div>
+
+          </article>
+
+
+        </div>
+
       </div>
-
 
     )
   }
