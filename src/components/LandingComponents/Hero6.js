@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom'
 
 import {Redirect} from 'react-router-dom'
+import Login from '../Login'
 
 
 
@@ -42,11 +43,16 @@ export default class HeroImage extends Component{
 
         <section id="thanks">
           <div>
-            <h2 className="thanks">Thanks!</h2>
-          <p> If You are Interested in Joining our Network of Developers, Please Email Us with a CV, Cover Letter and a link to your Github and Portfolio site.
+            {/* <h2 className="thanks">Thanks!</h2> */}
+          <h1>Apply to Join!</h1>
+        <p> If You are Interested in joining the Midealab digital product studio as apart of our Developer Community, we would love to meet you and see if it is a good fit for both of us.
 
           </p>
-            <a className="button" href="mailto:jobs@midealab.com" to="_">Email Us</a>
+            {/* <a className="button" href="mailto:jobs@midealab.com" to="_">Email Us</a> */}
+            <button className="ui button">
+                    <Link to="/apply">Apply</Link>
+            </button>
+
           </div>
         </section>
       </div>

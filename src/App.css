@@ -1,4 +1,18 @@
 
+p {
+    font: normal 400 14px/1 mplus-1p-thin, sans-serif;
+    line-height: 18px;
+}
+#section03 div > div >h2 {
+    font: normal 400 18px/1 mplus-1p-regular, sans-serif !important;
+    line-height: 18px;
+}
+
+
+#apply{
+  padding-top: 15vh
+}
+
 h1{
         font-family: 'Josefin Sans', sans-serif;
       }
@@ -22,8 +36,33 @@ h1.ui.header {
   line-height:20pt;
 }
 
+#devCommunityContent h2{
+  padding-left: 10vw;
+  padding-right: 10vw;
+  text-align: left !important;
+  font: normal 300 16px/1 mplus-1p, sans-serif;
+  line-height: 20px;
+
+}
 
 
+div#community_image {
+padding-top: 10vh;
+padding-left: 0px !important;
+}
+div#community_image div {
+/*padding-top: 10vh;*/
+padding-left: 10vw !important;
+}
+
+div#community_image div>li {
+  font: normal 300 16px/1 mplus-1p, sans-serif;
+  line-height: 40px;
+
+}
+.ui.circular.image, .ui.circular.image>*, .ui.circular.images .image, .ui.circular.images .image>* {
+    border-radius: 4rem;
+}
 
 /*img.ui.medium.left.floated.image {
     padding-top: 3%;
@@ -340,14 +379,7 @@ div#padding-left{
 #section02{
   padding-top: 5vh
 }
-#section2{
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-}
-#sections3{
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-}
+
 
 div#perk1.column{
   padding-right: 20vw !important;
@@ -363,12 +395,43 @@ div#perk2.column{
 
   padding-top: 15vh;
   padding-bottom: 5vh;
+  padding-left: 10vw;
+
   }
 #devCommunity {
 
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 15vh;
+  padding-bottom: 0vh;
+  padding-left: 10vw;
   }
+#digProduct {
+
+  padding-top: 15vh;
+  padding-bottom: 0vh;
+  padding-left: 10vw;
+
+  }
+#section2 {
+
+  padding-top: 15vh;
+  padding-bottom: 0vh;
+  padding-left: 10vw;
+
+  }
+
+#digProductStudio> article > div > img {
+
+  padding-left: 15vw;
+  padding-bottom: 0vh;
+
+  }
+
+  .ui.large.image, .ui.large.images .image, .ui.large.images img, .ui.large.images svg {
+    width: 450px;
+    height: auto;
+    font-size: 1.14285714rem;
+    /*padding-left: 10vw;*/
+}
 /*#idea_candidate .ui.two.column.grid.stackable div {
     background-color: rgba(0,0,0,.7);
     border-style: solid;
@@ -416,6 +479,11 @@ div#perk2.column{
        border-width: 5px;
        border-color: transparent;
        box-sizing:content-box;
+    }
+    article#section03 div > div > h3 {
+      padding-left: 15vw !important;
+      padding-right: 15vw !important;
+
     }
 
 /*element properties for second perk div*/
@@ -667,9 +735,16 @@ div#perk2.column{
       padding-top: -2.5em;
       min-width: 355px;
     }
-    #bullets div, img, li{
+    #community_image div{
       padding-left: 1em;
     }
+
+    div#community_image {
+    padding-top: 10vh;
+    }
+
+
+
 
     #hide{
       display: none;
@@ -704,8 +779,8 @@ div#perk2.column{
          border-width: 5px;
          border-color: transparent;
          margin-top: 0px;
-         padding-right: 20vw !important;
-         padding-left: 20vw !important;
+         padding-right: 10vw !important;
+         padding-left: 10vw !important;
          box-sizing: content-box;
          width: 100vw;
     }
@@ -730,8 +805,8 @@ div#perk2.column{
          border-width: 5px;
          border-color: transparent;
          margin-top: 0px;
-         padding-right: 20vw !important;
-         padding-left: 20vw !important;
+         padding-right: 10vw !important;
+         padding-left: 10vw !important;
          box-sizing: content-box;
          width: 100vw;
     }
@@ -801,7 +876,7 @@ div#perk2.column{
 #perks div > div > div {
   top: -18vh;
   padding-bottom: 0vh;
-  padding-top: 10vh;
+  padding-top: 5vh;
   margin-bottom: 0vh;
   margin-top: 0vh;
   /*background-color: blue;*/
@@ -880,6 +955,22 @@ div#perk2.column{
 
       /*background-color: transparent*/
    }
+
+   article#section03 div > div > h3 {
+     padding-left: 0vw !important;
+     padding-right: 0vw !important;
+
+   }
+   div#community_image div {
+   /*padding-top: 10vh;*/
+   padding-left: 2vw !important;
+   }
+   div#community_image div > li {
+   /*padding-top: 10vh;*/
+   padding-left: 10vw !important;
+   }
+
+
 
 
 }

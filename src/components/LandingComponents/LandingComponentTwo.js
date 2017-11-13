@@ -10,7 +10,7 @@ export default class LandingComponentTwo extends Component{
 
     return(
       <div >
-          <h1 id="section2" className=" ui center aligned icon header">Why Join midealab?</h1>
+          <h1 id="section2" className=" ui header">Why Join midealab?</h1>
 
 
         <div id="perks">

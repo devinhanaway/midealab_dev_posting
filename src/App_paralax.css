@@ -1,3 +1,14 @@
+p {
+    font: normal 400 14px/1 mplus-1p-thin, sans-serif;
+    line-height: 18px;
+}
+h2 {
+    font: normal 400 18px/1 mplus-1p-regular, sans-serif;
+    line-height: 18px;
+}
+
+
+
 
 #idea_candidate .ui.two.column.grid.stackable {
     background-color: rgba(0, 0, 0, 0);
@@ -29,7 +40,7 @@
 }
 
 #idea_candidate div > div >div:hover{
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 #idea_candidate div > div {
@@ -52,7 +63,7 @@
   position: relative;
   width: 120vw;
   height: 126vh;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.8);
   /*padding-top: 10vh;*/
   margin-right: 0vw;
   margin-left: 0vw;

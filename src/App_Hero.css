@@ -1,13 +1,45 @@
+/*p {
+    font: normal 400 14px/1 mplus-1p-thin, sans-serif;
+    line-height: 28px;
+}
+*/
 
 
 nav{
   position: fixed;
   height: 10vh;
-  background-color: rgba(0,0,0,.7) !important;
+  /*background-color: rgba(0,0,0,.7) !important;*/
   width: 100vw;
   z-index: 200;
-  padding-left: 10vw
+  /*padding-left: 10vw*/
+  background: -webkit-linear-gradient(top,rgba(0,0,0,.8) 0,rgba(0,0,0,.5) 80%,rgba(0,0,0,.2) 100%) !important;
+  background: linear-gradient(to bottom,rgba(0,0,0,8) 0,rgba(0,0,0,.5) 80%,rgba(0,0,0,.2) 100%) !important;
+  border-bottom: 0px solid rgba(34,36,38,.15) !important;
 }
+
+ /*nav::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 100vw;
+  height: 100vh;
+  background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+  z-index: 3
+}*/
+
+#apply div.row{
+  padding-top: 5vh
+}
+#submitApplication{
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+#submitApplication button{
+    background-color: rgba(76, 145, 80, 1);
+  }
+
 
 
 
@@ -114,18 +146,64 @@ section::after {
   white-space: wrap;
 }*/
 
-#section01 h1 {
+#section01 div {
   position: absolute;
   top: 10%;
-  left: 50%;
-  z-index: 2;
+  left: 40%;
+  z-index: 100;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: #fff;
-  font : normal 300 64px/1 'Josefin Sans', sans-serif;
-  text-align: center;
+  font : normal 300 44px/1 'Josefin Sans', sans-serif;
+  text-align: left;
   white-space: wrap;
-  padding-top: 10vh
+  padding-top: 40vh
+}
+
+#section01 h1 {
+  padding-top: 30vh;
+  text-align: left;
+    margin: 0px !important;
+}
+#section01 h3 {
+  padding-top: 3vh;
+  text-align: left;
+  margin: 0px !important;
+  font : normal 300 24px/1 'Josefin Sans', sans-serif;
+
+
+}
+/*#section01 h1 {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  z-index: 100;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font : normal 300 44px/1 'Josefin Sans', sans-serif;
+  text-align: left;
+  white-space: wrap;
+  padding-top: 40vh
+}*/
+/*#section01 h2 {
+  position: absolute;
+  top: 10%;
+  left: 39%;
+  margin-left: 0vw;
+  z-index: 100;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font : normal 300 24px/1 'Josefin Sans', sans-serif;
+  text-align: left;
+  white-space: wrap;
+  padding-top: 55vh
+}*/
+
+#section01 { background: url(https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb) center center / cover no-repeat;
+  /*position: absolute;
+  z-index: 10*/
 }
 /*div h1 {
   position: relative;
@@ -136,7 +214,19 @@ section::after {
 }*/
 section h2 {
   position: absolute;
-  top: 30%;
+  top: 35%;
+  left: 50%;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font : normal 300 24px/1 'Josefin Sans', sans-serif;
+  text-align: center;
+  white-space:pre-line;
+}
+#section01 p {
+  position: absolute;
+  top: 25%;
   left: 50%;
   z-index: 2;
   -webkit-transform: translate(-50%, -50%);
@@ -151,10 +241,7 @@ section h2 {
   line-height: normal;
 
 }
-#section01 { background: url(https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb) center center / cover no-repeat;
-  /*position: absolute;
-  z-index: 10*/
-}
+
 
 /*#section03{ background: url(https://media.licdn.com/media/AAEAAQAAAAAAAAlTAAAAJDM4ZmQ0OWU5LWFiZTgtNDgxZi1iMDFhLWNjZWFhZTM4OGZhNQ.png) center center / cover no-repeat;}*/
 
@@ -185,20 +272,22 @@ section h2 {
   z-index: 2;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
 }
-#thanks h2 {
-  margin-bottom: 60px;
+#thanks h1 {
   color: #333;
-  font : normal 300 64px/1 'Josefin Sans', sans-serif;
-  text-align: center;
-  white-space: pre;
+  /*font : normal 300 64px/1 mplus-1p-regular, sans-serif ;*/
+  font : normal 300 44px/1 'Josefin Sans', sans-serif;
+  text-align: left;
+  /*padding-right: 30vw*/
 }
 
 #thanks p {
   color: #333;
-  font : normal 400 20px/1 'Josefin Sans', sans-serif;
-  padding-top: 6em
+  /*font : normal 400 20px/1 'Josefin Sans', sans-serif;*/
+  font : normal 400 22px/1 mplus-1p-regular, sans-serif;
+  /*padding-top: 6em;*/
+  text-align: left;
 }
 #thanks p a {
   color: #333;
@@ -587,10 +676,40 @@ section h2 {
 
 
 
-@media only screen
+/*@media only screen
   and (min-device-width: 320px)
   and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (-webkit-min-device-pixel-ratio: 2) {*/
+
+  @media (min-width: 301px) and (max-width: 770px) {
+
+        nav{
+          position: fixed;
+          height: 40vh !important;
+          background-color: rgba(0,0,0,.7) !important;
+          width: 20vw;
+          z-index: 200;
+          padding-left: 0vw !important;
+          min-width: 100px !important;
+        }
+        #navbarSecondary nav{
+          position: fixed;
+          height: 10vh !important;
+          background-color: rgba(0,0,0,.7) !important;
+          width: 100vw;
+          z-index: 200;
+          padding-left: 0vw !important;
+          min-width: 100px !important;
+        }
+        nav img{
+
+          margin-left: -2vw !important;
+        }
+
+}
+  @media (min-width: 301px) and (max-width: 810px) {
+
+
     section h1 {
       position: absolute;
       top: 10%;
@@ -693,5 +812,81 @@ section h2 {
       z-index: 100
 
     }
+
+    /*#navbar nav{
+      position: fixed;
+      height: 40vh;
+      background-color: rgba(0,0,0,.7) !important;
+      width: 100vw;
+      z-index: 200;
+      padding-left: 0vw !important;
+      margin-left: -10vw ;
+    }
+
+    #navbar nav.ui.inverted.secondary.pointing.menu.stackable {
+      height: 30vh !important;
+  }*/
+
+  #section01 div {
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    z-index: 100;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font : normal 300 44px/1 'Josefin Sans', sans-serif;
+    text-align: left;
+    white-space: wrap;
+    padding-top: 20vh
+  }
+
+  #section01 h1 {
+    padding-top: 90vh;
+    text-align: left;
+    margin: 0px !important;
+    width: 325px;
+    font : normal 300 38px/1 'Josefin Sans', sans-serif;
+
+
+  }
+  #section01 h3 {
+    padding-top: 40vh;
+    text-align: left;
+    margin: 0px !important;
+    font : normal 300 18px/1 'Josefin Sans', sans-serif;
+    width: 325px;
+  }
+
+  #thanks div {
+    position: absolute;
+    top: 30%;
+    left: 58%;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+  }
+  #thanks h1 {
+    color: #333;
+    /*font : normal 300 64px/1 mplus-1p-regular, sans-serif ;*/
+    font : normal 300 44px/1 'Josefin Sans', sans-serif;
+    text-align: left;
+    width: 325px;
+    /*padding-right: 30vw*/
+  }
+
+  #thanks p {
+    color: #333;
+    /*font : normal 400 20px/1 'Josefin Sans', sans-serif;*/
+    font : normal 400 22px/1 mplus-1p-regular, sans-serif;
+    padding-top: 10vh;
+    text-align: left;
+    width: 325px;
+
+  }
+
+
+
 
 }

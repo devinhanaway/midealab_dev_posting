@@ -12,7 +12,7 @@ export default class LandingComponentThree extends Component{
       <div  className="padding ui">
         <div id="eligibility" className="padding ui">
 
-          <h1 id="pad_bottom"className="ui centered header">What We Look For In our Developers...</h1>
+          <h1 id="pad_bottom"className="ui header">What We Look For In our Developers...</h1>
       </div>
       <div className="ui" id="idea_candidate">
           <article id="ideal_candidate_image">
@@ -74,7 +74,7 @@ export default class LandingComponentThree extends Component{
               <i className="material-icons md-dark">grade</i>
 
               <h2>Bonus if</h2>
-              <p>You love building software, but also are interested in tups and are entrepreneurial in nature. Our team/network off developers will have the opportunity to work on client projects and portfolio tups that are launched by our founders.</p>
+            <p>You love building software, but also are interested in startups and are entrepreneurial in nature. Our team/network off developers will have the opportunity to work on client projects and portfolio tups that are launched by our founders.</p>
             </div>
 
           </div>

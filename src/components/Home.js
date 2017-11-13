@@ -11,6 +11,7 @@ import Timeline from './Timeline'
 import Navbar from './Navbar'
 
 
+import LandingComponentOne from './LandingComponents/LandingComponentOne'
 import LandingComponentTwo from './LandingComponents/LandingComponentTwo'
 import LandingComponentThree from './LandingComponents/LandingComponentThree'
 import LandingComponentFour from './LandingComponents/LandingComponentFour'
@@ -24,6 +25,7 @@ class Landing extends Component {
         <Navbar />
         <Hero />
         {/* <Hero2 /> */}
+        <LandingComponentOne/>
         <LandingComponentTwo/>
         <LandingComponentThree/>
         <LandingComponentFour/>
