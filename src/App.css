@@ -2,7 +2,10 @@
 p {
     font: normal 400 14px/1 mplus-1p-thin, sans-serif;
     line-height: 18px;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
+
 #section03 div > div >h2 {
     font: normal 400 18px/1 mplus-1p-regular, sans-serif !important;
     line-height: 18px;
@@ -191,6 +194,7 @@ h3{
     padding-right: 1em;
 }
 
+
 .ui.column.centered.header {
     padding-left: 6em;
     padding-right: 3em;
@@ -283,9 +287,9 @@ h3{
 }
 #perks article {
   position: relative;
-  width: 150vw;
+  width: 100vw;
   height: 120.5vh;
-  padding-left: 7vw
+  /*padding-left: 7vw*/
   /*padding-bottom: 15vh*/
 }
 #perks article::after {
@@ -293,7 +297,7 @@ h3{
   bottom: 0;
   left: 0;
   content: '';
-  width: 150vw;
+  width: 100vw;
   height: 60vh;
   background: -webkit-linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
   background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
@@ -374,8 +378,16 @@ div#padding-left{
 
 .ui.three.column.grid.stackable {
     padding-bottom: 20vh;
-    padding-right: 10vw
+    padding-right: 0vw;
+    padding-left: 0vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
 }
+article#section03 {
+    padding-left: 0vw;
+}
+
+
 #section02{
   padding-top: 5vh
 }
@@ -596,12 +608,12 @@ div#perk2.column{
 
        #perks article {
          position: relative;
-         width: 150vw;
+         width: 100vw;
          height: 120.5vh;
          background-color: rgba(0, 0, 0, 0.7);
          padding-top: 10vh;
-         padding-right: -50px;
-         margin-left: -10vw
+         padding-right: 0px;
+         margin-left: 0vw
        }
 
 
@@ -649,6 +661,35 @@ div#perk2.column{
     }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 301px) and (max-width: 800px) {
 
 
@@ -657,7 +698,26 @@ div#perk2.column{
   and (min-device-width: 800px)
   and (max-device-width: 1000px)
   and (-webkit-min-device-pixel-ratio: 2) {*/
+  #perks div >div{
+    padding-left: 0vw !important;
+    padding-right: 0vw !important;
+    margin-left: 0vw !important;
+    margin-right: 0vw !important;
+  }
 
+
+  #perks article > div >div >div > p {
+    padding-left: 7vw !important;
+    padding-right: 7vw !important;
+    margin-left: 0vw !important;
+    margin-right: 0vw !important;
+  }
+  #perks article > div >div >div > h2 {
+    padding-left: 15vw !important;
+    padding-right: 15vw !important;
+    margin-left: 0vw !important;
+    margin-right: 0vw !important;
+  }
 
 
 
@@ -779,8 +839,8 @@ div#perk2.column{
          border-width: 5px;
          border-color: transparent;
          margin-top: 0px;
-         padding-right: 10vw !important;
-         padding-left: 10vw !important;
+         padding-right: 0vw !important;
+         padding-left: 0vw !important;
          box-sizing: content-box;
          width: 100vw;
     }
@@ -805,8 +865,8 @@ div#perk2.column{
          border-width: 5px;
          border-color: transparent;
          margin-top: 0px;
-         padding-right: 10vw !important;
-         padding-left: 10vw !important;
+         padding-right: 0vw !important;
+         padding-left: 0vw !important;
          box-sizing: content-box;
          width: 100vw;
     }
@@ -833,8 +893,10 @@ div#perk2.column{
          border-width: 5px;
          border-color: transparent;
          margin-top: 0px;
-         padding-right: 10vw !important;
-         padding-left: 10vw !important;
+         padding-right: 0vw !important;
+         padding-left: 0vw !important;
+         margin-right: 0vw !important;
+         margin-left: 0vw !important;
          box-sizing: content-box;
          width: 100vw;
     }
@@ -860,8 +922,8 @@ div#perk2.column{
          border-width: 5px;
          border-color: transparent;
          box-sizing: content-box;
-         padding-right: 10vw !important;
-         padding-left: 10vw !important;
+         padding-right: 0vw !important;
+         padding-left: 0vw !important;
     }
 /*This sections can control all child divs of the perks compenent */
 #perks div > div> h2{
@@ -874,10 +936,27 @@ div#perk2.column{
 }
 
 #perks div > div > div {
-  top: -18vh;
+  /*top: -18vh;*/
   padding-bottom: 0vh;
   padding-top: 5vh;
-  margin-bottom: 0vh;
+  margin-bottom: 5vh;
+  margin-top: 0vh;
+  /*background-color: blue;*/
+  width: 100vw
+ }
+#perks div > div > {
+  /*top: -18vh;*/
+  padding-bottom: 5vh!important;
+  padding-top: 5vh !important;
+  
+
+ }
+
+#perks article> div > div > div {
+  /*top: -18vh;*/
+  padding-bottom: 0vh;
+  padding-top: 5vh;
+  margin-bottom: 5vh;
   margin-top: 0vh;
   /*background-color: blue;*/
   width: 100vw
@@ -885,12 +964,12 @@ div#perk2.column{
 
    #perks article {
      position: relative;
-     width: 150vw;
-     height: 122.5vh;
+     width: 100vw;
+     height: 140vh;
      background-color: rgba(0, 0, 0, 0.8);
      padding-top: 10vh;
-     padding-right: 10vw;
-     margin-left: -20vw
+     /*padding-right: 10vw;*/
+     margin-left: 0vw
    }
 
 
@@ -908,7 +987,7 @@ div#perk2.column{
       bottom: 0;
       left: 0;
       content: '';
-      width: 150vw;
+      width: 100vw;
       height: 60vh;
       background: -webkit-linear-gradient(top,rgba(0,0,0,.4) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
       background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
@@ -934,7 +1013,7 @@ div#perk2.column{
        url(https://s.dou.ua/img/static/companies/midealab_logo_1.png) center center / cover no-repeat,  url(https://cdn.stocksnap.io/img-thumbs/960w/55A6840521.jpg) center center / cover no-repeat;
       position: relative;
       width: 100vw;
-      height: 122.5vh;
+      height: 140vh;
     }
     #perks div> div> div > p {
         font: normal 400 14px/1 mplus-1p-thin, sans-serif;
@@ -976,6 +1055,13 @@ div#perk2.column{
    div#community_image div > li {
    /*padding-top: 10vh;*/
    padding-left: 10vw !important;
+   }
+
+   p {
+       font: normal 400 14px/1 mplus-1p-thin, sans-serif;
+       line-height: 18px;
+       padding-left: 0vw !important;
+       padding-right: 0vw !important;
    }
 
 
