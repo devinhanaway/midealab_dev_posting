@@ -17,9 +17,9 @@ export default class LandingComponentThree extends Component{
       <div className="ui" id="idea_candidate">
           <article id="ideal_candidate_image">
 
-            <div id="grid"  className="ui two column grid stackable ">
+            <div id="grid"  className="ui three column grid stackable ">
 
-            <div id="skills1" className="ui column centered header">
+            <div id="skills1" className="ui column centered header pad_bottom">
               <div id="absolute">
                 <i className="material-icons">&#xE90F;</i>
                 <h2>You’re an Inspired Developer </h2>
@@ -28,7 +28,7 @@ export default class LandingComponentThree extends Component{
 
             </div>
 
-          <div id="skills2" className="ui column centered header">
+          <div id="skills2" className="ui column centered header pad_bottom">
             <div id="absolute">
               <i className="material-icons md-dark">favorite_border</i>
 
@@ -40,7 +40,7 @@ export default class LandingComponentThree extends Component{
 
 
 
-            <div id="skills3" className="ui column centered header">
+            <div id="skills3" className="ui column centered header pad_bottom">
               <div id="absolute">
 
                 <i className="material-icons">playlist_add_check</i>
@@ -51,7 +51,7 @@ export default class LandingComponentThree extends Component{
             </div>
 
 
-          <div id="skills4" className="ui column centered header">
+          <div id="skills4" className="ui column centered header pad_bottom">
             <div id="absolute">
               <i className="material-icons md-dark">important_devices</i>
               <h2>Technology Expert and Sponge</h2>
@@ -60,7 +60,7 @@ export default class LandingComponentThree extends Component{
           </div>
 
 
-            <div id="skills5" className="ui column centered header">
+            <div id="skills5" className="ui column centered header pad_bottom">
               <div id="absolute">
                 <i className="material-icons md-dark">autorenew</i>
                 <h2>Process matter to you</h2>
@@ -69,7 +69,7 @@ export default class LandingComponentThree extends Component{
             </div>
 
 
-          <div id="skills6" className="ui column centered header">
+          <div id="skills6" className="ui column centered header pad_bottom">
             <div id="absolute">
               <i className="material-icons md-dark">grade</i>
 

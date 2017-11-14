@@ -22,9 +22,9 @@ export default class LandingComponentTwo extends Component{
                 <div className="ui segment container" id="absolute_nopadding">
                   {/* <img className="ui medium centered image" src="../../../images/peopleMap.jpg"/> */}
                     <h2>Work From Anywhere or The Studio:</h2>
-                  <h3>Our dispersed workforce model allows you to work from wherever you want, though you’re welcome to join us within our development studio in downtown Lviv, and work alongside our portfolio companies and other creatives.</h3>
-                    {/* <h2>Startup + Development Studio</h2>
-                  <h3>Work on a client products and startups launched by Midealab's experienced founders.</h3> */}
+                  <p>Our dispersed workforce model allows you to work from wherever you want, though you’re welcome to join us within our development studio in downtown Lviv, and work alongside our portfolio companies and other creatives.</p>
+                {/* <h2>Startup + Development Studio</h2>
+                  <p>Work on a client products and startups launched by Midealab's experienced founders.</p> */}
 
 
                  </div>
@@ -36,9 +36,9 @@ export default class LandingComponentTwo extends Component{
 
                   {/* <img className="ui medium centered image" src="../../../images/globalCitizen.jpg"/> */}
                 {/* <h2>Flexibility & Community</h2>
-              <h3>You will have the freedom to work from anywhere, but also have an office and startup culture to </h3> */}
+              <p>You will have the freedom to work from anywhere, but also have an office and startup culture to </p> */}
                 <h2>Competitive Compensation Startup Culture:</h2>
-              <h3>Become part of startup studio community and become surrounded with world class developers, entrepreneurs and creatives. Consistent client work + opportunities to join internal startups that Midealab’s founders launch.</h3>
+              <p>Become part of startup studio community and become surrounded with world class developers, entrepreneurs and creatives. Consistent client work + opportunities to join internal startups that Midealab’s founders launch.</p>
               </div>
             </div>
 
@@ -52,9 +52,9 @@ export default class LandingComponentTwo extends Component{
                 <div className="ui segment container" id="absolute_nopadding">
                   {/* <img className="ui medium centered image" src="../../../images/connection.jpg"/> */}
                 {/* <h2>Competative Compensation + Studio Culture</h2>
-              <h3>Being a part of Midealab's Dev Network doesn't mean you can't work other jobs. It just gaurentees competative pay and consistent work opportunities</h3> */}
+              <p>Being a part of Midealab's Dev Network doesn't mean you can't work other jobs. It just gaurentees competative pay and consistent work opportunities</p> */}
                 <h2>Flexibility + Community and Support:</h2>
-              <h3>Have the flexibility to accept client projects or decline projects, while continuing to be treated like part of the Midealab community. Everyone who joins Midealab becomes part of our startup studio family. This includes happy hours, company outings, and internal hackathons:</h3>
+              <p>Have the flexibility to accept client projects or decline projects, while continuing to be treated like part of the Midealab community. Everyone who joins Midealab becomes part of our startup studio family. This includes happy hours, company outings, and internal hackathons:</p>
                  </div>
               </div>
 
@@ -67,9 +67,9 @@ export default class LandingComponentTwo extends Component{
                 <div className="ui segment container" id="absolute_nopadding">
                   {/* <img className="ui medium centered image" src="../../../images/connection.jpg"/> */}
                 {/* <h2>Competative Compensation + Freedom</h2>
-              <h3>Being a part of Midealab's Dev Network doesn't mean you can't work other jobs. It just gaurentees competative pay and consistent work opportunities</h3> */}
+              <p>Being a part of Midealab's Dev Network doesn't mean you can't work other jobs. It just gaurentees competative pay and consistent work opportunities</p> */}
                 <h2>Value, Design, Development:</h2>
-              <h3>The Midealab approach toward building products and starting companies is centered around human centered value creation. We are focused on creating meaning and value for individuals and the world at large. This starts with our employees and customers, where we are creating a culture around community, growth and development. </h3>
+              <p>The Midealab approach toward building products and starting companies is centered around human centered value creation. We are focused on creating meaning and value for individuals and the world at large. This starts with our employees and customers, where we are creating a culture around community, growth and development. </p>
                  </div>
               </div>
 

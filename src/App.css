@@ -887,7 +887,7 @@ div#perk2.column{
      position: relative;
      width: 150vw;
      height: 122.5vh;
-     background-color: rgba(0, 0, 0, 0.7);
+     background-color: rgba(0, 0, 0, 0.8);
      padding-top: 10vh;
      padding-right: 10vw;
      margin-left: -20vw
@@ -935,6 +935,14 @@ div#perk2.column{
       position: relative;
       width: 100vw;
       height: 122.5vh;
+    }
+    #perks div> div> div > p {
+        font: normal 400 14px/1 mplus-1p-thin, sans-serif;
+        line-height: 18px;
+    }
+    #perks div> div> div > h2 {
+        font: normal 400 18px/1 mplus-1p-regular, sans-serif;
+        line-height: 18px;
     }
 
 

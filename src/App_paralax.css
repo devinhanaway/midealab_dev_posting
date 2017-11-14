@@ -21,21 +21,21 @@ h2 {
    url(https://s.dou.ua/img/static/companies/midealab_logo_1.png) center center / cover no-repeat,  url(https://cdn.stocksnap.io/img-thumbs/960w/NXZELRJWF8.jpg) center center / cover no-repeat;
   position: relative;
   width: 100vw;
-  height: 126vh;
+  height: 120vh;
 }
 
 #idea_candidate div > div >div{
   /*top: -18vh;*/
   padding-bottom: 0vh;
-  padding-top: 10vh;
-  padding-right: 2vw;
-  padding-left: 2vw;
+  padding-top: 0vh;
+  padding-right: 0vw;
+  padding-left: 0vw;
   margin-bottom: 0vh;
-  margin-top: 10vh;
+  margin-top: 0vh;
   margin-right: 0vw;
   margin-left: 0vw;
   /*background-color: blue;*/
-  width: 50vw;
+  width: 33vw;
   height: 250px
 }
 
@@ -46,15 +46,15 @@ h2 {
 #idea_candidate div > div {
   /*top: -18vh;*/
   padding-bottom: 0vh;
-  padding-top: 0vh;
+  padding-top: 10vh;
   padding-right: 0vw;
   padding-left: 0vw;
-  margin-bottom: 0vh;
-  margin-top: 0vh;
+  margin-bottom: 10vh;
+  margin-top: 30vh;
   margin-right: 0vw;
   margin-left: 0vw;
   background-color: transparent;
-  width: 50vw;
+  width: 33vw;
 
 
 }
@@ -62,10 +62,10 @@ h2 {
 #idea_candidate article {
   position: relative;
   width: 120vw;
-  height: 126vh;
+  padding-top: 20vh;
+
+  height: 120vh;
   background-color: rgba(0, 0, 0, 0.8);
-  /*padding-top: 10vh;*/
-  margin-right: 0vw;
   margin-left: 0vw;
   /*padding-right: -50px;*/
   /*margin-left: -10vw*/
@@ -93,15 +93,17 @@ h2 {
   padding-bottom: 80px !important;
 }
 #skills1 p{
-  padding-right: 10vw !important;
-  padding-left: 10vw !important;
+  padding-right: 5vw !important;
+  padding-left: 5vw !important;
   padding-bottom: 50px !important;
 }
 #skills1 div{
-  padding-bottom: 5vh !important;
+  margin-bottom: 10vh !important;
+  padding-bottom: 0vh !important;
   padding-top: 5vh !important;
 
 }
+
 
 /*adjustments for skills 2*/
 
@@ -113,12 +115,32 @@ h2 {
   padding-bottom: 80px !important;
 }
 #skills2 p{
-  padding-right: 10vw !important;
-  padding-left: 10vw !important;
+  padding-right: 5vw !important;
+  padding-left: 5vw !important;
   padding-bottom: 50px !important;
 }
 #skills2 div{
-  padding-bottom: 5vh !important;
+  margin-bottom: 10vh !important;
+  padding-bottom: 0vh !important;
+  padding-top: 5vh !important;
+
+
+}
+#skills3 {
+  box-sizing: content-box;
+  width: 50vw;
+  margin-top: 0px !important;
+  padding-top: 85px !important;
+  padding-bottom: 80px !important;
+}
+#skills3 p{
+  padding-right: 5vw !important;
+  padding-left: 5vw !important;
+  padding-bottom: 50px !important;
+}
+#skills3 div{
+  margin-bottom: 10vh !important;
+  padding-bottom: 0vh !important;
   padding-top: 5vh !important;
 
 
@@ -126,7 +148,7 @@ h2 {
 
 /*adjustments for skills 3*/
 
-#skills3 {
+/*#skills3 {
   box-sizing: content-box;
   width: 50vw;
   margin-top: 0px !important;
@@ -134,19 +156,19 @@ h2 {
   padding-bottom: 200px !important;
 }
 #skills3 p{
-  padding-right: 10vw !important;
-  padding-left: 10vw !important;
+  padding-right: 5vw !important;
+  padding-left: 5vw !important;
 }
 #skills3 div{
-  padding-bottom: 5vh !important;
+  padding-bottom: 0vh !important;
   padding-top: 5vh !important;
 
 
-}
+}*/
 
 /*adjustments for skills 4*/
 
-#skills4 {
+/*#skills4 {
   box-sizing: content-box;
   width: 50vw;
   margin-top: 0px !important;
@@ -154,17 +176,39 @@ h2 {
   padding-bottom: 200px !important;
 }
 #skills4 p{
-  padding-right: 10vw !important;
-  padding-left: 10vw !important;
+  padding-right: 5vw !important;
+  padding-left: 5vw !important;
 }
 
 #skills4 div{
-  padding-bottom: 5vh !important;
+  padding-bottom: 0vh !important;
+  padding-top: 5vh !important;
+
+
+}*/
+
+#skills4 {
+  box-sizing: content-box;
+  width: 50vw;
+  margin-top: 0px !important;
+  padding-top: 125px !important;
+  padding-bottom: 100px !important;
+  /*padding-right: 10vw !important;
+  padding-left: 10vw !important;*/
+}
+#skills4 p{
+  padding-right: 5vw !important;
+  padding-left: 5vw !important;
+}
+#skills4 div{
+  padding-bottom: 0vh !important;
   padding-top: 5vh !important;
 
 
 }
+
 /*adjustments for skills 5*/
+
 
 #skills5 {
   box-sizing: content-box;
@@ -176,11 +220,11 @@ h2 {
   padding-left: 10vw !important;*/
 }
 #skills5 p{
-  padding-right: 10vw !important;
-  padding-left: 10vw !important;
+  padding-right: 5vw !important;
+  padding-left: 5vw !important;
 }
 #skills5 div{
-  padding-bottom: 5vh !important;
+  padding-bottom: 0vh !important;
   padding-top: 5vh !important;
 
 
@@ -199,11 +243,11 @@ h2 {
   padding-left: 10vw !important;*/
 }
 #skills6 p{
-  padding-right: 10vw !important;
-  padding-left: 10vw !important;
+  padding-right: 5vw !important;
+  padding-left: 5vw !important;
 }
 #skills6 div{
-  padding-bottom: 5vh !important;
+  padding-bottom: 0vh !important;
   padding-top: 5vh !important;
 
 
@@ -274,7 +318,7 @@ h2 {
     position: relative;
     width: 120vw;
     height: 204vh;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     /*padding-top: 10vh;*/
     margin-right: 0vw;
     margin-left: 0vw;
