@@ -277,7 +277,7 @@ h2 {
      url(https://s.dou.ua/img/static/companies/midealab_logo_1.png) center center / cover no-repeat,  url(https://cdn.stocksnap.io/img-thumbs/960w/NXZELRJWF8.jpg) center center / cover no-repeat;
     position: relative;
     width: 100vw;
-    height: 204vh;
+    height: 240vh;
   }
 
   #idea_candidate div > div >div{
@@ -289,7 +289,7 @@ h2 {
     margin-bottom: 0vh;
     margin-top: 0vh;
     margin-right: 0vw;
-    margin-left: 3vw;
+    margin-left: 0vw;
     /*background-color: blue;*/
     width: 100vw;
     height: 250px !important;
@@ -312,12 +312,13 @@ h2 {
     background-color: transparent;
 
 
+
   }
 
   #idea_candidate article {
     position: relative;
     width: 100vw;
-    height: 204vh;
+    height: 240vh;
     background-color: rgba(0, 0, 0, 0.8);
     padding-top: 0vh !important;
     margin-right: 0vw;
