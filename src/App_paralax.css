@@ -319,7 +319,7 @@ h2 {
     width: 120vw;
     height: 204vh;
     background-color: rgba(0, 0, 0, 0.8);
-    /*padding-top: 10vh;*/
+    padding-top: 0vh !important;
     margin-right: 0vw;
     margin-left: 0vw;
     /*padding-right: -50px;*/
