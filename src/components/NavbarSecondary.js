@@ -28,11 +28,16 @@ export default class Navbar extends Component{
   render(){
 
     return(
-      <div id="navbarSecondary">
-        <nav   className="ui inverted secondary pointing menu stackable">
+      <div id="navbarSecondary" className="header centered ui">
+        <nav    className="ui inverted secondary pointing menu stackable">
              {/* <Scrollchor animate={{offset: 0, duration: 1000}} to="top" className="item"><img className="ui image tiny" src="https://daks2k3a4ib2z.cloudfront.net/5720705935a3eec8453146fd/5720705935a3eec84531474d_logo.png"></img></Scrollchor> */}
-             <Link to="/" animate={{offset: 0, duration: 1000}}  className="item"><img className="ui image small" src="https://daks2k3a4ib2z.cloudfront.net/5720705935a3eec8453146fd/5720705935a3eec84531474d_logo.png"></img></Link>
-           <Scrollchor animate={{offset: 0, duration: 1000}} to="/" className="item"><Link to ="/">Home</Link></Scrollchor>
+             <div className="ui header centered" id="center">
+               <Link  to="/" animate={{offset: 0, duration: 1000}}  className="item"><img className="ui image centered header small" src="https://daks2k3a4ib2z.cloudfront.net/5720705935a3eec8453146fd/5720705935a3eec84531474d_logo.png"></img></Link>
+
+             </div>
+
+         {/* <Scrollchor animate={{offset: 0, duration: 1000}} to="/" className="item"><Link to ="/">Home</Link></Scrollchor> */}
+
          {/* <Scrollchor animate={{offset: 0, duration: 1000}} to="#section2" className="item">Perks</Scrollchor>
        <Scrollchor animate={{offset: 0, duration: 1000}} to="#sections3" className="item">Dev Community</Scrollchor>
      <Scrollchor animate={{offset: 0, duration: 1000}} to="#eligibility" className="item">Eligibility</Scrollchor>
